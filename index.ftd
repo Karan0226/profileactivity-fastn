@@ -16,7 +16,7 @@ align-content: center
 -- player: KARAN SAHANI
 dp: $assets.files.assets.karn.jpeg  
 
-I am DevRel at FifthTry.
+I am Karan, i like to watch anime.
 
 -- ftd.column:
 spacing.fixed.px: 10
@@ -24,7 +24,7 @@ margin-top.px: 60
 width: fill-container
 
 -- button: LinkedIn
-link: https://www.linkedin.com/in/ajit-garg-319167190/
+link:https://www.linkedin.com/in/karan-sahani-827700241
 
 -- button: Instagram
 
