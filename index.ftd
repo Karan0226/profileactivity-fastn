@@ -5,7 +5,7 @@ width: fill-container
 height: fill-container
 align-content: center
 types: $opensans.types
-background.image: $bg-image
+background.image: $bg-download.jpg
 
 -- ftd.column:
 width.fixed.px: 832
@@ -24,13 +24,16 @@ margin-top.px: 60
 width: fill-container
 
 -- button: LinkedIn
-link:https://www.linkedin.com/in/karan-sahani-827700241
+link: https://www.linkedin.com/in/karan-sahani-827700241
 
 -- button: Instagram
+link: https://www.linkedin.com/in/karan-sahani-827700241
 
--- button: Facebook
+-- button: discord
+link: https://www.linkedin.com/in/karan-sahani-827700241
 
 -- button: Twitter
+link: https://www.linkedin.com/in/karan-sahani-827700241
 
 
 
@@ -50,7 +53,7 @@ link:https://www.linkedin.com/in/karan-sahani-827700241
 caption title:
 optional ftd.image-src dp:
 optional body body:
-ftd.color border-color: black
+ftd.color border-color: blue
 
 -- ftd.column:
 width.fixed.px: 341 
@@ -68,11 +71,11 @@ border-width.px: 5
 
 -- ftd.text: $player.title
 role: $inherited.types.heading-large
-color: white
+color: black
 
 -- ftd.text: $player.body
 role: $inherited.types.copy-regular
-color: white
+color: black
 
 -- end: ftd.column
 
@@ -88,7 +91,7 @@ color: white
 caption title:
 optional string link:
 ftd.color text-color: $inherited.colors.text-strong
-ftd.color border-color: white
+ftd.color border-color: yellow
 
 -- ftd.row:
 align-content: center
@@ -103,7 +106,7 @@ border-color: $button.border-color
 -- ftd.text: $button.title
 link: $button.link
 padding.px: 10
-style: bold
+style: italic
 text-align: center
 color: $button.text-color
 role: $inherited.types.copy-regular
@@ -120,7 +123,7 @@ role: $inherited.types.copy-regular
 
 
 -- ftd.background-image bg-image:
-src: $assets.files.assets.unsplash.jpg
+src: $assets.files.assets.download.jpg
 repeat: no-repeat
 position: center
 size: cover
